@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.section__info--product,.section__product{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e3e5;
+    justify-content: center;   
+    align-items: center;
+}
+main , .section__head{
+    display: flex;
+}
+.button__comprar{
+    background-color: #ed1c24;
+    color: white;
+    border: 1px;
+    width:122px;
+    margin: 0 20px 0 0;
+    border-radius: 25px;
+}
+.picture__logo--beats img{
+    width: 40px;
+    height: 40px;
+}
+.section__info--product div{
+    margin: 10px 0;
+}
+.picture__stars img{
+    width: 25%;
+}
+.section__product,.section__info--product{
+    width: 50%;
+    height: 100vh;
+}
+.section__product{
+    background-color: #ed1c24;
+    display: flex;
+}
+.section__head{
+    height: 64px;
+    align-items: center;
+    background-color: #262628;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+.section__head a{
+    color: #e1e3e5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.section__head img{
+    margin: 4px 20px 0;
+}
+.container{
+    display: flex;
+}
+.section__head .button__comprar{
+    padding: 5px 10px;
+    width: 100px;
+    height: 30px;
+}
+.section__head button:hover{
+    background-color: rgba(129, 129, 129, 0.349);
+}
+.section__head a:hover{
+    text-decoration: underline;
+}
+#section__descripcion--general img{
+    height: 400px;
+    padding: 20px;
+}
+#section__descripcion--general picture{
+    background-color: #ed1c232c;
+}
+#section__descripcion--general picture,.container div,.info__esp ,.imagen__esp{
+    width: 50%;
+}
+.container div{
+    background-color: #e1e3e541;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head__button--comprar{    
+    background-color: #ed1c24;
+    color: white;
+    border: 1px solid transparent;
+    width: 100px;
+    font-size: 10px;    
+    margin: 0 20px 0 0;
+    border-radius: 25px;
+}
+.container p{
+    margin: 40px;
+    font-size: 20px;
+}
+.container h2{
+    font-size: 30px;
+}
+.section__esp{
+    display: flex;
+}
+.info__esp p{
+    padding: 40px;
+    border: 1px solid black;
+}
+table {
+    width: 100%;    
+}
+
+th img{
+    width: 200px;
+}
+thead th:nth-child(1), thead th:nth-child(2) {
+    width: 30%;
+}
+thead{
+    background-color: #00000013;
+}
+th,td {
+    padding: 5px;
+    height: 50px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #e1e3e541;
+}
+tbody tr:nth-child(even) {
+    background-color: #ed1c2327;
+}
+span{
+    font-weight: bold;
+}
+.section__esp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
